@@ -1,0 +1,102 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://www.cleverbot.com/webservicemin
+    body:
+      encoding: UTF-8
+      string: stimulus=hello%3F&start=y&sessionid=&vText8=&vText7=&vText6=&vText5=&vText4=&vText3=&vText2=&icognoid=wsf&icognocheck=c9234e849d667e910d8e5f4915589ad9&fno=0&prevref=&emotionaloutput=&emotionalhistory=&asbotname=&ttsvoice=&typing=&lineref=&sub=Say&islearning=1&cleanslate=false
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 18 Sep 2013 17:10:46 GMT
+      Content-Type:
+      - text/html;charset=iso-8859-1
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AIS="AtKCBOtPtkGkjU/PQbMKog"; Version=1
+      - JSESSIONID=BB1268F81B7D9967A12EE70BE2D6C005; Path=/
+      - RPS=server52054
+      - cleverbotfirstref2="*EOPUBVCOSJEKWYEITRXGEPVSIMKVAELNRZGAEASEUK"; Expires=""
+      - cleverbotref="*ISJOKEUHKCIEFQXMNAPZIJEKBQEESXPHARZAIKMIDI"; Expires="Wed,
+        18 Sep 2013 18:12:20 GMT"
+      Mime-Version:
+      - '1.0'
+      Expires:
+      - 'Thu, 01 Jan 1970 00: 00:00 GMT'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache;no-store
+      Rps:
+      - server52054
+      Rlm:
+      - '1419'
+      Sc:
+      - '12480'
+      Content-Length:
+      - '135'
+      Server:
+      - Jabberwacky
+    body:
+      encoding: UTF-8
+      string: "What's your name?\rSHI00641826\rj2log-uCyRAiMYCOYLRAKSQCYG-detail\r\r\r\r\r\rHello?\rWhat's
+        your name?\rUK001539274\r\r\r\r\r\rWhat's your name?\r\r\r\r\r\r\r"
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:12:26 GMT
+- request:
+    method: post
+    uri: http://www.cleverbot.com/webservicemin
+    body:
+      encoding: UTF-8
+      string: stimulus=Who%20are%20you&start=y&sessionid=SHI00641826&vText8=&vText7=&vText6=&vText5=&vText4=&vText3=Hello%3F&vText2=What's%20your%20name%3F&icognoid=wsf&icognocheck=eb70d60773570c011b18220f195eadaa&fno=0&prevref=UK001539274&emotionaloutput=&emotionalhistory=&asbotname=&ttsvoice=&typing=&lineref=&sub=Say&islearning=1&cleanslate=false
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 18 Sep 2013 17:10:51 GMT
+      Content-Type:
+      - text/html;charset=iso-8859-1
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AIS="1vl6j40z/xU966SYa3O3GQ"; Version=1
+      - JSESSIONID=33606AEA5C94320E866A75C67961ABC3; Path=/
+      - RPS=server52054
+      - cleverbotfirstref2="*QARWMGGVWQQMHCLUVCBNQRGWPYMGELXPCDNAQCUCFK"; Expires=""
+      - cleverbotref="*OYLQAUQQGLOGVMGSPQLIOLUGKWGUOGVJQNIAOEOITK"; Expires="Wed,
+        18 Sep 2013 18:12:03 GMT"
+      Mime-Version:
+      - '1.0'
+      Expires:
+      - 'Thu, 01 Jan 1970 00: 00:00 GMT'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache;no-store
+      Rps:
+      - server52054
+      Rlm:
+      - '1426'
+      Sc:
+      - '12480'
+      Content-Length:
+      - '270'
+      Server:
+      - Jabberwacky
+    body:
+      encoding: UTF-8
+      string: "A person who's having a nice conservation with you.\rSHI00641826\rj2log-mUpIRzXLNBQCIAVKDAQG-detail\r\r\r\rHello?\rWhat's
+        your name?\rWho are you.\rA person who's having a nice conservation with you.\rRNF105003131\r\r\r\r\r\rA
+        person who's having a nice conservation with you.\r!01\r\r\r\r\r\r"
+    http_version: 
+  recorded_at: Wed, 18 Sep 2013 17:12:31 GMT
+recorded_with: VCR 2.5.0
